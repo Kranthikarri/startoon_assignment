@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.name {
+
+    flex-direction: column;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 820px;
+}
+
+.kkk {
+    padding-top: 80px;
+}
+
+.input-container {
+    margin-top: -90px;
+    margin-left: 500px;
+}
+
+.input-container .input {
+    padding: 15px;
+    margin-bottom: 50px;
+    background-color: #d9d9d9;
+    border: none;
+    margin-left: -2cm;
+    width: 250px;
+}
+
+.input-container .maxInput {
+    padding: 15px;
+    background-color: #d9d9d9;
+    margin-left: -2cm;
+    width: 250px;
+    border: none;
+}
+
+.progress {
+    background-color: #e4ebf5;
+    height: 30px;
+    width: 250px;
+    margin-left: 750px;
+
+
+}
+
+.progress {
+    transform: rotate(-90deg);
+    /* width: 10px; */
+    height: 40px;
+    margin-top: 150px;
+}
+
+.progress-done {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: repeating-linear-gradient(to left,
+            #63A3F2, #63A3F2, #63A3F2);
+    color: #fff;
+    height: 100%;
+    width: 0;
+    transition: 1s ease 0.3s;
+
+
+
+}
